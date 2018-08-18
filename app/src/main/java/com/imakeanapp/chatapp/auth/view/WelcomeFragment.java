@@ -40,8 +40,8 @@ public class WelcomeFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_welcome, container, false);
 
         logo = view.findViewById(R.id.logo);
-        signUp = view.findViewById(R.id.login);
-        login = view.findViewById(R.id.sign_up);
+        signUp = view.findViewById(R.id.sign_up);
+        login = view.findViewById(R.id.login);
 
         signUp.setOnClickListener(new View.OnClickListener() {
             @Override

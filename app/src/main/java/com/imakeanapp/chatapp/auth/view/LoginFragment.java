@@ -73,7 +73,7 @@ public class LoginFragment extends Fragment {
         password = view.findViewById(R.id.password);
         usernameError = view.findViewById(R.id.username_error);
         passwordError = view.findViewById(R.id.password_error);
-        signUp = view.findViewById(R.id.login);
+        signUp = view.findViewById(R.id.sign_up);
         signUp.setPaintFlags(signUp.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
         signUp.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -81,7 +81,7 @@ public class LoginFragment extends Fragment {
                 callback.onSignUpClick();
             }
         });
-        login = view.findViewById(R.id.sign_up);
+        login = view.findViewById(R.id.login);
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
